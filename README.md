@@ -15,13 +15,13 @@ Prospective students are expected to have taken Introduction to Physical Computi
 - [Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UUVtNWtYeW9BX3ZhfGRlZmF1bHR8NDIzN2VhZmY5OTQ4MTM2NTRmY2Q4ODQyY2Q3NDZmM2I)
 
 ## OUTLINE:
-Week 1 Introduction to Machine Learning
-Week 2 Image Classification and Transfer Learning
-Week 3 Run a model with Tensorflow Lite
-Week 4 Train a model with Tensorflow Lite
-Week 5 Gesture detection
-Week 6 Speech recognition
-Week 7 Final project presentation
+- Week 1 Introduction to Machine Learning
+- Week 2 Image Classification and Transfer Learning
+- Week 3 Run a model with Tensorflow Lite
+- Week 4 Train a model with Tensorflow Lite
+- Week 5 Gesture detection
+- Week 6 Speech recognition
+- Week 7 Final project presentation
 
 ### Week 1 Introduction to Machine Learning
 #### Notes:

@@ -87,7 +87,7 @@ Running the micro_speech example on Arduino Nano 33: https://github.com/tensorfl
 
 
 ## EQUIPMENT
-You will need a modern laptop (4 years old or younger is a good rule of thumb). Most required software is freely available.
+You will need a Arduino Nana 33 borad, and a modern laptop (4 years old or younger is a good rule of thumb). Most required software is freely available.
 
 # Policies
 

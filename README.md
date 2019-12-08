@@ -82,6 +82,8 @@ Running the micro_speech example on Arduino Nano 33: https://github.com/tensorfl
 - [TinyML Book](https://www.oreilly.com/library/view/tinyml/9781492052036/)
 - [Tiny ml workshop](https://github.com/sandeepmistry/aimldevfest-workshop-2019)
 - [Intel-Pattern-Matching-Technology, Arduino 101 gesture recognition example](https://github.com/intel/Intel-Pattern-Matching-Technology)
+- [Get started with machine learning on Arduino](https://blog.arduino.cc/2019/10/15/get-started-with-machine-learning-on-arduino)
+- [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
 - [Machine Learning for Introductory Physical Computing Curricula](http://alimomeni.net/wordpress/wp-content/uploads/2016/01/CHI-2016-ML-for-Phys-Comp.pdf)
 - [The Big Benchmarking Roundup Getting started with machine learning and edge computing]()
 

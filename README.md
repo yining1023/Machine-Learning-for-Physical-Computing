@@ -12,69 +12,17 @@ Prospective students are expected to have taken Introduction to Physical Computi
 
 ## INFO
 - Yining Shi, Tuesday, 6:30PM - 9:00PM, 03/24 - 05/05/2020
-- Room 408, 370 Jay Street
+- Zoom meeting
 - [Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UUVtNWtYeW9BX3ZhfGRlZmF1bHR8NDIzN2VhZmY5OTQ4MTM2NTRmY2Q4ODQyY2Q3NDZmM2I)
 
 ## OUTLINE:
-- Week 1 Introduction to Machine Learning
-- Week 2 Image Classification and Transfer Learning
-- Week 3 Run a model with Tensorflow Lite
-- Week 4 Train a model with Tensorflow Lite
-- Week 5 Gesture detection
-- Week 6 Speech recognition
+- [Week 1](/Intro) Introduction to Machine Learning
+- [Week 2](/Classification) Classification and Transfer Learning
+- [Week 3](/RunAModel) Run a model
+- [Week 4](/TrainAModel) Train a model
+- [Week 5](/GestureDetection) Gesture detection
+- [Week 6](/SensorDataClassification) Sensor data classification
 - Week 7 Final project presentation
-
-### Week 1 Introduction to Machine Learning
-#### Notes:
-What’s Artificial Intelligence, Machine Learning, Deep learning?
-Supervised Learning, Unsupervised Learning, Reinforcement Learning
-Machine Learning output types: Regression, Classification, Clustering, Sequence prediction
-Existing Machine Learning use cases and creative projects
-Introduction to Tensorflow Lite
-TensorFlow Lite for Microcontrollers
-#### Workshop:
-Run Tensorflow Lite Hello world example on Arduino: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro/examples/hello_world
-
-### Week 2 Classification and Transfer Learning
-#### Notes:
-What is a teachable machine
-How does teachable machine work
-What is Transfer Learning
-Existing projects about transfer learning
-
-#### Workshop:
-Run a classifier(image/pose/sound) with Teachable Machine, and send the results to Arduino to light up an LED
-Code: https://github.com/yining1023/machine-learning-for-the-web/tree/master/week4-soundClassifier/teachableMachineArduino-sound
-
-### Week 3 Run a model with Tensorflow Lite
-#### Notes:
-Understand the concept of a “machine learning model.”
-What is a “pre-trained model”?
-What does it mean to discuss the “architecture” of a machine learning model?
-Define and diagram an artificial neural network.
-#### Workshop:
-Running person_detection example: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro/examples/person_detection
-
-### Week 4 Train a model with Tensorflow Lite
-#### Notes:
-Understand the full story of building a ML model for classification or regression.
-Understand how data is formatted and downloaded including CSV and JSON.
-Consider how to frame the problem and collect data.
-Understand critical questions to ask (e.g. Who is this for? What’s the context?)
-Understand the questions to ask about sourcing and collecting data.
-Learn how to prepare a data set, including how to normalize and properly format it.
-#### Workshop:
-How to Collecting IMU data on Arduino Nano 33 BLE Sense
-
-### Week 5 Gesture detection
-Diagram the components of a two layer "vanilla" neural network.
-How to build a simple neural network in code
-#### Workshop:
-Gesture Controlled USB Emoji Keyboard on Arduino Nano 33 BLE Sense
-
-### Week 6 Speech recognition
-#### Workshop:
-Running the micro_speech example on Arduino Nano 33: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro/examples/micro_speech
 
 ## Resources:
 - [How-to Get Started with Machine Learning on Arduino](https://medium.com/tensorflow/how-to-get-started-with-machine-learning-on-arduino-7daf95b4157)
@@ -86,7 +34,6 @@ Running the micro_speech example on Arduino Nano 33: https://github.com/tensorfl
 - [Get started with machine learning on Arduino](https://blog.arduino.cc/2019/10/15/get-started-with-machine-learning-on-arduino)
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
 - [Machine Learning for Introductory Physical Computing Curricula](http://alimomeni.net/wordpress/wp-content/uploads/2016/01/CHI-2016-ML-for-Phys-Comp.pdf)
-- [The Big Benchmarking Roundup Getting started with machine learning and edge computing]()
 
 
 ## EQUIPMENT

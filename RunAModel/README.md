@@ -6,3 +6,4 @@
 - Define and diagram an artificial neural network.
 #### Workshop:
 - [Running person_detection example with Tensorflow Lite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection)
+https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01?f=1

@@ -1,12 +1,12 @@
-const mySoundModelURL = 'https://storage.googleapis.com/tm-speech-commands/yiningtestsound07112019/model.json';
+const mySoundModelURL = 'https://teachablemachine.withgoogle.com/models/-OUoUPKHF/';
 let mySoundModel;
 let resultDiv;
-let serial;          // variable to hold an instance of the serialport library
-let portName = '/dev/cu.usbmodem1411'; // fill in your serial port name here
-let outByte = 0;                       // for outgoing data
+let serial;// variable to hold an instance of the serialport library
+let portName = '/dev/tty.usbmodem144301';// fill in your serial port name here
+let outByte = 0;// for outgoing data
 
 function preload() {
-  mySoundModel = ml5.soundClassifier(mySoundModelURL);
+  mySoundModel = ml5.soundClassifier(mySoundModelURL+ 'model.json');
 }
 
 function setup() {
@@ -25,12 +25,17 @@ function gotResults(err, results) {
   if (err) console.log(err);
   if (results) {
     console.log(results);
+    if (results[0].confidence < 0.7) return;
     resultDiv.html('Result is: ' + results[0].label);
-    if (results[0].label === 'Happy') {
-      outByte = 255;
-      // send it out the serial port:
-      console.log('outByte: ', outByte)
-      serial.write(outByte);
+    if (results[0].label === 'happy') {
+      outByte = 1;
+    } else if (results[0].label === 'clap') {
+      outByte = 2;
+    } else {
+      outByte = 0;
     }
+    // send it out the serial port:
+    console.log('outByte: ', outByte)
+    serial.write(outByte);
   }
 }

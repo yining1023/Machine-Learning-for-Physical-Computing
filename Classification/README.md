@@ -23,6 +23,7 @@ Run a classifier(image/pose/sound) with Teachable Machine, and send the results 
 ## Resource:
 - [How to build a Teachable Machine with TensorFlow.js](https://observablehq.com/@nsthorat/how-to-build-a-teachable-machine-with-tensorflow-js)
 - [Coding Train: ml5.js: KNN Classification Part 1 - 3](https://youtu.be/KTNqXwkLuM4)
+- [Eyeo Festival 2019 - Coding train](https://vimeo.com/354276216), [code](https://github.com/CodingTrain/Eyeo-Festival-2019)
 
 ## Projects Inspirations:
 - [Getting Alexa to Respond to Sign Language Using Your Webcam and TensorFlow.js](https://medium.com/tensorflow/getting-alexa-to-respond-to-sign-language-using-your-webcam-and-tensorflow-js-735ccc1e6d3f), [live demo](https://shekit.github.io/alexa-sign-language-translator/)

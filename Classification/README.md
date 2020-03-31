@@ -13,6 +13,8 @@
 
 ## Workshop:
 Run a classifier(image/pose/sound) with Teachable Machine, and send the results to Arduino to light up LEDs
+* [How to use p5 serial](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-input-to-the-p5-js-ide/)
+* Download the p5 serial app [here](https://github.com/p5-serial/p5.serialcontrol/releases/tag/0.1.1)
 
 ### Some demos for the web
 - [KNN Image Classifier Video](https://yining1023.github.io/machine-learning-for-the-web/week2-imageClassifier/KNNClassification_Video/)

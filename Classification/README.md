@@ -42,4 +42,4 @@ Run a classifier(image/pose/sound) with Teachable Machine, and send the results 
 - [Airi Flies](https://www.yonaymoris.me/projects/airiflies)
 - [Move that Little Dude](https://dylandawkinsblog.wordpress.com/2019/05/08/machine-learning-for-web-final/)
 
-## [Homework]()
+## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/2020-Spring-Week-2-Classification)

@@ -33,7 +33,8 @@ Prospective students are expected to have taken Introduction to Physical Computi
 - [Intel-Pattern-Matching-Technology, Arduino 101 gesture recognition example](https://github.com/intel/Intel-Pattern-Matching-Technology)
 - [Get started with machine learning on Arduino](https://blog.arduino.cc/2019/10/15/get-started-with-machine-learning-on-arduino)
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
-- [Machine Learning for Introductory Physical Computing Curricula](http://alimomeni.net/wordpress/wp-content/uploads/2016/01/CHI-2016-ML-for-Phys-Comp.pdf)
+- [ML Crash Course](https://developers.google.com/machine-learning/crash-course)
+- [Deep lLearning Book](https://www.deeplearningbook.org/)
 
 
 ## EQUIPMENT

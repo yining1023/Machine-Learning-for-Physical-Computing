@@ -35,5 +35,7 @@ Run a classifier(image/pose/sound) with Teachable Machine, and send the results 
 - [Teachable Snake](https://experiments.withgoogle.com/teachable-snake)
 - [Teachable Sorter](https://coral.ai/projects/teachable-sorter)
 - [Teachable Arcade](https://teachable-arcade.glitch.me/)
+- [Airi Flies](https://www.yonaymoris.me/projects/airiflies)
+- [Move that Little Dude](https://dylandawkinsblog.wordpress.com/2019/05/08/machine-learning-for-web-final/)
 
 ## [Homework]()

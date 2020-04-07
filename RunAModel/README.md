@@ -5,10 +5,12 @@
 ## Notes:
 - Understand the concept of a “machine learning model.”
 - What is a “pre-trained model”?
-- What does it mean to discuss the “architecture” of a machine learning model?
-- Define and diagram an artificial neural network.
+- Tensorflow Lite for Microcontrollers
 - 3 Tensorflow Lite on Mircocontrollers examples: Micro Speech, Magic Wand, Detect a person
-- What is a Convolutional neural network?
+- Why running Tensorflow Lite on Mircocontrollers?
+- TF Lite on Microcontrollers Workflow
+- What is Quantized model?
+- What is FlatBuffer?
 
 ## Workshop:
 - Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)

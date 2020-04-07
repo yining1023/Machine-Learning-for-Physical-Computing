@@ -1,6 +1,6 @@
 # Week 3 Run a model with Tensorflow Lite / Tensorflow.js
 
-## [Slides]()
+## [Slides](https://docs.google.com/presentation/d/1AM6FtkjbCZvBt1OjF6PikLbEu6eSvWovtNKj-Dxm1Gc/edit?usp=sharing)
 
 ## Notes:
 - Understand the concept of a “machine learning model.”
@@ -22,4 +22,4 @@
 - [Arduino Project Hub: Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
 - [Arduino Project Hub: Magic Wandddddddd](https://create.arduino.cc/projecthub/team-182/magic-wandddddddd-ea87db)
 
-## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/2020-Spring-Week-3-Magic-Wand)
+## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/2020-Spring-Week-3-Run-A-Model)

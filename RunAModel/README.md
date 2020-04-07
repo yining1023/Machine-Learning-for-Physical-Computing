@@ -9,7 +9,7 @@
 - Define and diagram an artificial neural network.
 
 ## Workshop:
-- Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA),[Guide]((../Examples/magic_wand)
+- Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA),[Guide](../Examples/magic_wand)
 
 ## Resource:
 - [TinyML Book chapter 11: Magic Wand](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/tinyml/9781492052036/)(Log in with your NYU NetId)

@@ -3,7 +3,7 @@
 - [Demo video](https://youtu.be/E42RYOEqfyA)
 - See another [demo video](https://create.arduino.cc/projecthub/404-team/magic-wand-885613) from Arduino project hub
 
-## Fork from [Tensorflow Lite example](https://github.com/tensorflow/tensorflow/edit/master/tensorflow/lite/micro/examples/magic_wand)
+## Forked from [Tensorflow Lite example](https://github.com/tensorflow/tensorflow/edit/master/tensorflow/lite/micro/examples/magic_wand)
 
 This example shows how you can use TensorFlow Lite to run a 20 kilobyte neural
 network model to recognize gestures with an accelerometer. It's designed to run
@@ -17,8 +17,6 @@ then outputs the gesture to the serial port.
 
 -   [Getting started](#getting-started)
 -   [Deploy to Arduino](#deploy-to-arduino)
--   [Deploy to SparkFun Edge](#deploy-to-sparkfun-edge)
--   [Run the tests on a development machine](#run-the-tests-on-a-development-machine)
 -   [Train your own model](#train-your-own-model)
 
 ## Deploy to Arduino

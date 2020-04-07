@@ -14,6 +14,8 @@
 - Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)
 
 ## Resource:
+- [Tensorflow Lite Get started with microcontrollers](https://www.tensorflow.org/lite/microcontrollers/get_started)
+- [Arduino TensorFlow Lite Tutorials](https://github.com/arduino/ArduinoTensorFlowLiteTutorials)
 - [TinyML Book chapter 11: Magic Wand, chapter 9 Detect person](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/tinyml/9781492052036/)(Log in with your NYU NetId)
 - [Arduino Project Hub: Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
 - [Arduino Project Hub: Magic Wandddddddd](https://create.arduino.cc/projecthub/team-182/magic-wandddddddd-ea87db)

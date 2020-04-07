@@ -28,6 +28,11 @@ The sample has been tested with the following devices:
 
 - [Arduino Nano 33 BLE Sense](https://store.arduino.cc/usa/nano-33-ble-sense-with-headers)
 
+### Install the Arduino Nano 33 BLE Sense board manager
+In the Arduino IDE menu select `Tools > Board > Boards Manager…`
+Search for “Nano BLE” and press install on the board 
+It will take several minutes to install. When it’s done close the Boards Manager window
+
 ### Install the Arduino_TensorFlowLite library
 
 This example application is included as part of the official TensorFlow Lite

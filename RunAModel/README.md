@@ -14,6 +14,7 @@
 
 ## Workshop:
 - Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)
+- Hand pose tracking, [p5 code editor code](https://editor.p5js.org/yining/sketches/2dXLFrpl-), [demo](https://www.loom.com/share/d1161bc584954122ab9757974fd02309)
 
 ## Resource:
 - [Tensorflow Lite Get started with microcontrollers](https://www.tensorflow.org/lite/microcontrollers/get_started)
@@ -23,4 +24,4 @@
 - [Arduino Project Hub: Magic Wandddddddd](https://create.arduino.cc/projecthub/team-182/magic-wandddddddd-ea87db)
 - [Face and hand tracking in the browser with MediaPipe and TensorFlow.js](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html)
 
-## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/2020-Spring-Week-3-Run-A-Model)
+## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-3-Run-a-Model)

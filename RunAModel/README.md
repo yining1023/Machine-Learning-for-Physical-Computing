@@ -21,5 +21,6 @@
 - [TinyML Book chapter 11: Magic Wand, chapter 9 Detect person](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/tinyml/9781492052036/)(Log in with your NYU NetId)
 - [Arduino Project Hub: Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
 - [Arduino Project Hub: Magic Wandddddddd](https://create.arduino.cc/projecthub/team-182/magic-wandddddddd-ea87db)
+- [Face and hand tracking in the browser with MediaPipe and TensorFlow.js](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html)
 
 ## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/2020-Spring-Week-3-Run-A-Model)

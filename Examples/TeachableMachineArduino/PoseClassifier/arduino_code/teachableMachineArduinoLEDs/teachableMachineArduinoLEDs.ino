@@ -11,15 +11,16 @@ void loop() {
  if (Serial.available() > 0) { // if there's serial data available
    int inByte = Serial.read();   // read it
    if (inByte == 1) {
-     analogWrite(ledPin1, 255);  // use it to set the LED brightness
-     analogWrite(ledPin2, 0);
+     digitalWrite(ledPin1, 1);  // use it to turn on the LED 1
+     digitalWrite(ledPin2, 0);
    } else if (inByte == 2) {
-     analogWrite(ledPin2, 255);  // use it to set the LED brightness
-     analogWrite(ledPin1, 0);
+     digitalWrite(ledPin2, 1);  // use it to turn on the LED 2
+     digitalWrite(ledPin1, 0);
    } else {
-     analogWrite(ledPin1, 0);  // sets the LED off
-     analogWrite(ledPin2, 0);  // sets the LED off
+     digitalWrite(ledPin1, 0);  // sets the LED off
+     digitalWrite(ledPin2, 0);  // sets the LED off
    }
    delay(200);                // waits
  }
 }
+

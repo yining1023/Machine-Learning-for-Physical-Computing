@@ -9,10 +9,6 @@ run on systems with small amounts of memory such as microcontrollers and DSPs.
 ## Table of contents
 -   [Getting started](#getting-started)
 -   [Running on Arduino](#running-on-arduino)
--   [Running on SparkFun Edge](#running-on-sparkfun-edge)
--   [Run the tests on a development machine](#run-the-tests-on-a-development-machine)
--   [Debugging image capture](#debugging-image-capture)
--   [Training your own model](#training-your-own-model)
 
 ## Running on Arduino
 

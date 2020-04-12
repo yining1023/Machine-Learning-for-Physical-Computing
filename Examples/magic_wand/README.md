@@ -158,5 +158,5 @@ follow the instructions in [magic_wand/train/README.md](https://github.com/tenso
 - Error compiling
   Make sure to select the right board: Arduino Nano 33 BLE
 - Error when compiling Arduino sketch: `Multiple libraries were found for "TensorFlowLite.h"`
-  there might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.
+  - There might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.
  

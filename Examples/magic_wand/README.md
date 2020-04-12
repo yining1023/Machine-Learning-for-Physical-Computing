@@ -152,3 +152,11 @@ SLOPE:
 
 To train your own model, or create a new model for a new set of gestures,
 follow the instructions in [magic_wand/train/README.md](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/magic_wand/train/README.md).
+
+
+## Troubleshooting
+- Error compiling
+  Make sure to select the right board: Arduino Nano 33 BLE
+- Error when compiling Arduino sketch: `Multiple libraries were found for "TensorFlowLite.h"`
+  there might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.
+ 

@@ -1,3 +1,9 @@
 - [Image Classification Video](https://editor.p5js.org/ml5/sketches/ImageClassification_Video)
 - [Speech Command Classification](https://editor.p5js.org/yining/sketches/F_Eh3jeP5)
 - [Teachable Machines with sound/pose/image classifier](../TeachableMachineArduino)
+- [Hand pose tracking](https://editor.p5js.org/yining/sketches/2dXLFrpl-)
+- [Hand pose tracking + KNN Classification](https://editor.p5js.org/yining/sketches/uUwg0z9Z5)
+- Hand pose tracking + Neural Network
+  - [Collect date]()
+  - [Train the model]()
+  - [Run the model]()

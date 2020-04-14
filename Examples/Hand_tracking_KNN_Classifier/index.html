@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <h2>KNN Classification on Webcam Images with Hand pose model. Built with p5.js</h2>
+  <div id="canvasContainer"></div>
+  <p id="status">Loading Model...</p>
+  <p>
+    KNN Classifier with mobileNet model labeled this
+    as Class: <span id="result">...</span>
+    with a confidence of <span id="confidence">...</span>
+  </p>
+  <p>
+    <span class="emoji"> ✊ </span><button id="addClassRock">Add an Example to Class Rock</button>
+    <button id="resetRock">Reset Class Rock</button>
+    </p><p><span id="exampleRock">0</span> Rock examples | Confidence in Rock is: <span id="confidenceRock">0</span></p>
+
+    <span class="emoji"> 🖐 </span><button id="addClassPaper">Add an Example to Class Paper</button>
+    <button id="resetPaper">Reset Class Paper</button>
+    <p><span id="examplePaper">0</span> Paper examples | Confidence in Paper is: <span id="confidencePaper">0</span></p>
+
+    <span class="emoji"> ✌️ </span><button id="addClassScissor">Add an Example to Class Scissor</button>
+    <button id="resetScissor">Reset Class Scissor</button>
+    <p><span id="exampleScissor">0</span> Scissor examples | Confidence in Scissor is: <span id="confidenceScissor">0</span></p>
+  
+  <br />
+  <p>
+    <button id="buttonPredict">Start predicting!</button><br />
+    <button id="clearAll">Clear all classes</button><br />
+  </p>
+    <script src="sketch.js"></script>
+  </body>
+</html>

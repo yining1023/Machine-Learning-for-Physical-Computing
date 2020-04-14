@@ -11,8 +11,8 @@ The Emoji_Button example needs a button connected to pin 3 and GND.
 
 
 Go to a text editor like google doc, select Unicode Hex Input has the keyboard input source:
-![Picture of select unicode](../images/select-unicode.jpg)
+![Picture of select unicode](../images/select-unicode.png)
 
 You can install the unicode keyboard like this:
-![Picture of add unicode 1](../images/add-unicode1.jpg)
-![Picture of add unicode 1](../images/add-unicode2.jpg)
+![Picture of add unicode 1](../images/add-unicode1.png)
+![Picture of add unicode 1](../images/add-unicode2.png)

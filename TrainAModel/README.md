@@ -20,9 +20,8 @@
 ## Resource:
 - [TinyML Workshop](https://github.com/sandeepmistry/aimldevfest-workshop-2019)
 - [TinyML Book chapter 12: Magic Wand, Training a model](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/tinyml/9781492052036/)(Log in with your NYU NetId)
-- [ml5 pose classifier](https://thecodingtrain.com/learning/ml5/7.2-pose-classifier.html)
-- [NeuralNetwork pose classifier
-](https://editor.p5js.org/ml5/sketches/NeuralNetwork_pose_classifier)
-- [ml5.js: Pose Classification training all steps](https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK)
+- [Coding training video: ml5 pose classifier](https://thecodingtrain.com/learning/ml5/7.2-pose-classifier.html)
+  - [ml5.js: Pose Classification training all steps](https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK)
+  - [NeuralNetwork pose classifier](https://editor.p5js.org/ml5/sketches/NeuralNetwork_pose_classifier)
 
 ## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-4-Train-a-Model)

@@ -9,7 +9,7 @@
 - Learn how to prepare a dataset, including how to normalize and properly format it.
 
 ## Workshop:
-- Training your own , [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)
+- Training your own gesture classifier, [Guide](../Examples/GestureToEmoji)
 - Training hand pose model
   - Hand pose tracking + KNN Classification, [p5 web editor code](https://editor.p5js.org/yining/sketches/uUwg0z9Z5), [demo video](https://www.loom.com/share/f81cf908e5b7404ba0071902019d67c2)
   - Hand pose tracking + Neural Network

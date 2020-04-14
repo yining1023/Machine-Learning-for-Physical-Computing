@@ -14,5 +14,7 @@
 
 ![screenshot of serial monitor with IMU data](../images/serial-monitor-imu.png)
 
+**Make sure both `flex.csv` and `punch.csv` files has `aX,aY,aZ,gX,gY,gZ` had their first line**
+
 Next [Exercise 5: Machine Learning ](exercise5.md)
 

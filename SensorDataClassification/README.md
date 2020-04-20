@@ -1,4 +1,7 @@
 # Week 5 Sensor data classification
+
+## [Slides]()
+
 ## Workshop:
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow), [code](../Examples/FruitToEmoji)
 - [Regression with ml5js](https://editor.p5js.org/ml5/sketches/FeatureExtractor_Image_Regression)
@@ -7,3 +10,10 @@
   - [https://editor.p5js.org/AndreasRef/sketches/HyEDToYnQ](https://editor.p5js.org/AndreasRef/sketches/HyEDToYnQ)
   - [https://editor.p5js.org/AndreasRef/sketches/BynhuHsqX](https://editor.p5js.org/AndreasRef/sketches/BynhuHsqX)
 - [Train a doodle classifier](https://github.com/yining1023/doodleNet)
+
+## Resource:
+- [ml5js Feature extractor](https://learn.ml5js.org/docs/#/reference/feature-extractor)
+- [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
+- [p5js sketch visualize sensor data from Arduino nano BLE Sense](https://github.com/sandeepmistry/Arduino-Nano-33-BLE-Sense-Examples)
+
+## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-5-Final-Proposal)

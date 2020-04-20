@@ -1,3 +1,5 @@
+# [Guide](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow/)
+
 # Forked from [ArduinoTensorFlowLiteTutorials](https://github.com/arduino/ArduinoTensorFlowLiteTutorials)
 
 # FruitToEmoji

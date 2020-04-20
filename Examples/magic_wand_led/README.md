@@ -6,9 +6,9 @@
 ## Circuit board
 Connect three LEDs on pin D2, D3, D4
 ![magicwand-led-circuit](../../images/magicwand-led-circuit.jpg)
-When "Wing" gesture is recognize, green LED lights up.
-When "Ring" gesture is recognize, yellow LED lights up.
-When "Slop" gesture is recognize, red LED lights up.
+- When "Wing" gesture is recognize, green LED lights up.
+- When "Ring" gesture is recognize, yellow LED lights up.
+- When "Slop" gesture is recognize, red LED lights up.
 
 ## Forked from [Tensorflow Lite example](https://github.com/tensorflow/tensorflow/edit/master/tensorflow/lite/micro/examples/magic_wand)
 

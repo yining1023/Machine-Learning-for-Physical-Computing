@@ -1,3 +1,7 @@
+## Troubleshooting
+- [Why the loss does not go down? Arduino tinyml workshop gesture classification](https://www.loom.com/share/ebee6b3a1f594fda84ed17bf33252e77)
+- [How to train/run Google Colab? Arduino Tinyml Workshop Gesture classification](https://www.loom.com/share/a7cf8894e4c94b9cb30cb3d8cbd9a496)
+
 # Forked from [ArduinoTensorFlowLiteTutorials](https://github.com/arduino/ArduinoTensorFlowLiteTutorials)
 
 # Machine Learning on Arduino

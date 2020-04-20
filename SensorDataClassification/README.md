@@ -12,6 +12,7 @@
 - [Train a doodle classifier](https://github.com/yining1023/doodleNet)
 
 ## Resource:
+- [Sensors on Arduino Nano 33 BLE Sense](https://www.arduino.cc/en/Guide/NANO33BLESense)
 - [ml5js Feature extractor](https://learn.ml5js.org/docs/#/reference/feature-extractor)
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
 - [p5js sketch visualize sensor data from Arduino nano BLE Sense](https://github.com/sandeepmistry/Arduino-Nano-33-BLE-Sense-Examples)

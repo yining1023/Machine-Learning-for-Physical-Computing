@@ -1,7 +1,14 @@
-# Magic Wand
+# Magic Wand with LEDs
+- [Demo video](https://youtu.be/U8EDfUBn5H4)
+- [Tutorial video: how to run it]()
 
-- [Demo video](https://youtu.be/E42RYOEqfyA)
-- See another [demo video](https://create.arduino.cc/projecthub/404-team/magic-wand-885613) from Arduino project hub
+#### This is a contuniaution of the Magic Wand example, it lights up 3 different LEDs when it classfies the 3 gestures.
+## Circuit board
+Connect three LEDs on pin D2, D3, D4
+![magicwand-led-circuit](../../images/magicwand-led-circuit.jpg)
+When "Wing" gesture is recognize, green LED lights up.
+When "Ring" gesture is recognize, yellow LED lights up.
+When "Slop" gesture is recognize, red LED lights up.
 
 ## Forked from [Tensorflow Lite example](https://github.com/tensorflow/tensorflow/edit/master/tensorflow/lite/micro/examples/magic_wand)
 

@@ -20,8 +20,8 @@ Prospective students are expected to have taken Introduction to Physical Computi
 - [Week 2](/Classification) Classification and Transfer Learning
 - [Week 3](/RunAModel) Run a model
 - [Week 4](/TrainAModel) Train a model
-- [Week 5](/GestureDetection) Gesture detection
-- [Week 6](/SensorDataClassification) Sensor data classification
+- [Week 5](/SensorDataClassification) Sensor data classification
+- [Week 6](/Next) Next Step, beyond classification, other tools
 - Week 7 Final project presentation
 
 ## Resources:

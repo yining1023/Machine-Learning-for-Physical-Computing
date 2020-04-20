@@ -1,6 +1,6 @@
 # Magic Wand with LEDs
 - [Demo video](https://youtu.be/U8EDfUBn5H4)
-- [Tutorial video: how to run it]()
+- [Tutorial video: how to run it](https://www.loom.com/share/4a9b3cf76f0c44418fb44f0204bed477)
 
 #### This is a contuniaution of the Magic Wand example, it lights up 3 different LEDs when it classfies the 3 gestures.
 ## Circuit board

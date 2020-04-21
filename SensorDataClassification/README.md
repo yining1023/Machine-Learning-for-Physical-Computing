@@ -17,4 +17,4 @@
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
 - [p5js sketch visualize sensor data from Arduino nano BLE Sense](https://github.com/sandeepmistry/Arduino-Nano-33-BLE-Sense-Examples)
 
-## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-5-Final-Proposal)
+## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-5-Final-Assignment-Proposal)

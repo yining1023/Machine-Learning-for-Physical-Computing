@@ -1,6 +1,6 @@
 # Week 5 Sensor data classification
 
-## [Slides]()
+## [Slides](https://docs.google.com/presentation/d/1WQhE8FaJKdABevlmBQoHr7Vf6waeJc2ezviXRIV_xlM/edit?usp=sharing)
 
 ## Workshop:
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow), [code](../Examples/FruitToEmoji)

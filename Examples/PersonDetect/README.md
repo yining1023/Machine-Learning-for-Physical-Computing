@@ -1,10 +1,14 @@
 ## Demo
-[video]()
+[video](https://youtu.be/k-hnPUr5OnU)
 
 ## How to run it
-[video]()
+[video](https://www.loom.com/share/e3657978c1ec4e44b1f72421542f2485)
+
+## Parts
+<img src="../../images/detect_person_parts.jpg" alt="parts" width="400px">
 
 ## Circuit:
+<img src="../../images/detect_person_circuit1.jpg" alt="circuit1" width="400px"><img src="../../images/detect_person_circuit2.jpg" alt="circuit2" width="400px">
 
 ## Other tutorial
 See also [Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01) on Arduino project hub

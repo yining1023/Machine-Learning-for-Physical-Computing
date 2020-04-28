@@ -1,5 +1,14 @@
 # Next Step, beyond classification, other tools
 
+## Workflow for ML projects
+1. Decide on a goal
+2. Collect a dataset
+3. Design a model architecture
+4. Train the model
+5. Convert the model
+6. Run inference
+7. Evaluate and troubleshoot
+
 ## Deisgn Your Own TinyML Applications
 - Read more in TinyML book Chapter 14
 - The Design Process
@@ -13,8 +22,7 @@
 
 ## Examples
 - [Detect person example](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/PersonDetect) on Arduino Nano 33 BLE Sense
-- [Retrain Sound classifier]() Running it on Arduino Nano 33 BLE Sense
-- [Wireless Teachable Machine to Arduino]() (Bluetooth LE, p5ble.js)
+- p5 sketch to Arduino Wireless communication, Bluetooth LE, [p5ble.js](https://itpnyu.github.io/p5ble-website), [p5 sketch light up LEDs example](https://itpnyu.github.io/p5ble-website/docs/write-one-char-callback)
 
 ## Tools
 - Google Coral [models](https://coral.ai/models/), [examples](https://coral.ai/examples/#code-examples/)

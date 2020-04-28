@@ -31,3 +31,6 @@
   - [JST-PH 2-Pin SMT Right Angle Breakout Board](https://www.adafruit.com/product/1862)
   - [Micro-Lipo Charger for LiPo](https://www.adafruit.com/product/1904)
 - [Power switch tail](https://www.adafruit.com/product/268), good for control electronics at home, like a regular lamp. Be safe when working with high voltage. Power switch tail with Arduino [demo video](https://youtu.be/kXjBvL2ECX8)
+
+## Homework
+Keep working on the final assignment

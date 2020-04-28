@@ -1,1 +1,0 @@
-### Train any combination of these words: yes,no,up,down,left,right,on,off,stop,go + unknown by using this [Colab](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/micro/examples/micro_speech/train_speech_model.ipynb)

@@ -1,3 +1,17 @@
+## Demo
+[video]()
+
+## How to run it
+[video]()
+
+## Circuit:
+
+## Other tutorial
+See also [Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01) on Arduino project hub
+
+Circuit wiring diagram
+![Circuit wiring diagram](https://hackster.imgix.net/uploads/attachments/1007722/arduino_ble_with_battery_bb_Wq6pNrk8fW.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
+
 # Forked from [tflite examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection)
 
 # Person detection example

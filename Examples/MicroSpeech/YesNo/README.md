@@ -1,4 +1,4 @@
-# Forked from [tflite examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection)
+# Forked from [tflite examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech)
 
 # Micro speech example
 
@@ -16,15 +16,7 @@ run on systems like an STM32F103 with only 20 kilobytes of total SRAM and 64
 kilobytes of Flash.
 
 ## Table of contents
-
--   [Getting started](#getting-started)
 -   [Deploy to Arduino](#deploy-to-arduino)
--   [Deploy to SparkFun Edge](#deploy-to-sparkfun-edge)
--   [Deploy to STM32F746](#deploy-to-STM32F746)
--   [Deploy to NXP FRDM K66F](#deploy-to-nxp-frdm-k66f)
--   [Run on macOS](#run-on-macos)
--   [Run the tests on a development machine](#run-the-tests-on-a-development-machine)
--   [Calculating the input to the neural network](#calculating-the-input-to-the-neural-network)
 -   [Train your own model](#train-your-own-model)
 
 ## Deploy to Arduino
@@ -83,3 +75,8 @@ the serial output in the Arduino desktop IDE, do the following:
    have to try several times, since the board will take a moment to connect.
 
 If you don't see any output, repeat the process again.
+
+## Training your own model
+
+You can train your own model with some easy-to-use scripts. See
+[training_a_model.md](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech/train) for instructions.

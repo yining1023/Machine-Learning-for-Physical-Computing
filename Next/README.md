@@ -22,7 +22,7 @@
 
 ## Examples
 - [Detect person example](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/PersonDetect) on Arduino Nano 33 BLE Sense
-- p5 sketch to Arduino Wireless communication, Bluetooth LE, [p5ble.js](https://itpnyu.github.io/p5ble-website), [p5 sketch light up LEDs example](https://itpnyu.github.io/p5ble-website/docs/write-one-char-callback)
+- [p5 sketch](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/p5ble) to Arduino Wireless communication, Bluetooth LE, [p5ble.js](https://itpnyu.github.io/p5ble-website), [p5 sketch light up LEDs example](https://itpnyu.github.io/p5ble-website/docs/write-one-char-callback)
 
 ## Tools
 - Google Coral [models](https://coral.ai/models/), [examples](https://coral.ai/examples/#code-examples/)

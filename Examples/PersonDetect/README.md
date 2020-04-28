@@ -2,7 +2,7 @@
 [video](https://youtu.be/k-hnPUr5OnU)
 
 ## How to run it
-[video]()
+[video](https://www.loom.com/share/e3657978c1ec4e44b1f72421542f2485)
 
 ## Parts
 <img src="../../images/detect_person_parts.jpg" alt="parts" width="400px">

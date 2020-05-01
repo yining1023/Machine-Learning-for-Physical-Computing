@@ -35,6 +35,7 @@ Prospective students are expected to have taken Introduction to Physical Computi
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
 - [ML Crash Course](https://developers.google.com/machine-learning/crash-course)
 - [Deep lLearning Book](https://www.deeplearningbook.org/)
+- [Make Your Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G)
 
 
 ## EQUIPMENT

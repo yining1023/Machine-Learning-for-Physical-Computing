@@ -13,7 +13,7 @@ Read more about the Servo motor Sweep example [here](https://www.arduino.cc/en/T
 1. Connect the circuit, make sure to connect Arduino's D9 pin to the servo pulse pin
 <img src="https://www.arduino.cc/en/uploads/Tutorial/sweep_schem.png" alt="servo-circuit3" width="500px">
 
-2. Open Arduino IDE, install the latest version of the Servo library, you can search for the library under "Tools - Manage Libraries"
+2. Open Arduino IDE, install the latest version of the Servo library, you can search for the library under "Tools - Manage Libraries". Make sure you are using the latest version of the library, the library was updated to support this board.
 
 3. Open to Sweep example, go to "Files - Examples - Servo - Sweep"
 

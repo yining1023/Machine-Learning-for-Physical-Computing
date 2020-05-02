@@ -37,6 +37,14 @@ Prospective students are expected to have taken Introduction to Physical Computi
 - [Deep lLearning Book](https://www.deeplearningbook.org/)
 - [Make Your Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G)
 
+## Troubleshooting on Arudino Nano 33 BLE Sense
+- Q: My Arduino IDE cannot recognize the port for Arudino Nano 33 BLE board. 
+  - A: Double-press the reset button on the Arudino Nano 33 BLE board (the small button on the board).
+- Q: My desktop Arduino IDE cannot compile my sketch even after I re-installed the software and all the libraries
+  - A: An alternative is Arduino Online Editor:
+    You can get set up quickly by following the [getting started instructions](https://create.arduino.cc/getting-started/plugin?page=1) which will guide you through the following:
+    - Download and install the plugin
+    - Sign in or sign up for a free account
 
 ## EQUIPMENT
 You will need a Arduino Nana 33 borad, and a modern laptop (4 years old or younger is a good rule of thumb). Most required software is freely available.

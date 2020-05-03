@@ -12,7 +12,7 @@
 ## Sound with Servo Motor
 - Upload the [Arduino Sketch](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/TeachableMachineArduino/SoundClassifier_with_Servo/SoundClassifier_Servo) to the Arduino board
 - Running this [p5 sketch](https://editor.p5js.org/yining/sketches/q8JEPDwK7), remember to update the `portName` and `mySoundModelURL`, and update class names to your own classes.
-- [Demo](https://youtu.be/RnStPxTfEnU)
+- [Video Demo](https://youtu.be/RnStPxTfEnU)
 - Circuit
   - Connect D2,3,4 to 3 LEDs
   - Connect servo signal pin to D9. [More about](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/ServoMotor) how to use servo motor with arduino.

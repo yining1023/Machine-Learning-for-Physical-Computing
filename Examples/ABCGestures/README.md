@@ -12,7 +12,7 @@ A [video]() of how to run this workshop
 Arduino Nano 33 BLE Sense (and its USB cable), Laptop
 
 ## 1. Circuit
-Connects D2, D3, D4 to three LEDs.
+- Connects D2, D3, D4 to three LEDs.
 <img src="../../images/abcgesture_circuit.jpg" alt="abcgesture_circuit" width="400px">
 
 ## 2. Collect data
@@ -22,7 +22,7 @@ Connects D2, D3, D4 to three LEDs.
 - In the end, we will have 3 .csv files: "a.csv", "b.csv", "b.csv"
 
 ## 3. Train the model
-Open this google colab, 
+Open [this google colab](https://colab.research.google.com/drive/1E2UFGJjddwEp3yKxMF9Fk02D2KACauyn), 
 To train our own classes, we need to change the Gesture class.
 There are 3 places that we need to make some small changes.
   - 1. Graph Data (optional)

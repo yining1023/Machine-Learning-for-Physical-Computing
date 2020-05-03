@@ -6,7 +6,7 @@ Classify "A", "B", "C" gestures.
 [video](https://youtu.be/7AfUF4RuiZ8)
 
 ## How to Run it
-A [video]() of how to run this workshop
+A [video](https://www.loom.com/share/ae50b56c41774eb6b98e9b8f728b3c90) of how to run this workshop
 
 ## 0. What do you need
 Arduino Nano 33 BLE Sense (and its USB cable), Laptop
@@ -39,7 +39,7 @@ There are 3 places that we need to make some small changes.
     ]
     ```
     Put a list of your gestures here, the same names of your `csv` file
-In the end, you should have a `model.h` file that you downloaded from the colab.
+- In the end, you should have a `model.h` file that you downloaded from the colab.
 
 ## 4. Run the model
 Go to Arduino IDE, open this [IMU_Classifier](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/ABCGestures/ArduinoSketches/IMU_Classifier) sketch, replace its `model.h` file to the file that we got from the google colab.

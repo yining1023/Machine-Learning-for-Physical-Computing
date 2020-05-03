@@ -18,6 +18,8 @@
   This example code is in the public domain.
 */
 
+
+
 #include <Arduino_LSM9DS1.h>
 
 #include <TensorFlowLite.h>
@@ -54,13 +56,18 @@ byte tensorArena[tensorArenaSize];
 
 // array to map gesture index to a name
 const char* GESTURES[] = {
-  "punch",
-  "flex"
+  "a",
+  "b",
+  "c"
 };
 
 #define NUM_GESTURES (sizeof(GESTURES) / sizeof(GESTURES[0]))
 
 void setup() {
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+
   Serial.begin(9600);
   while (!Serial);
 
@@ -149,13 +156,49 @@ void loop() {
         }
 
         // Loop through the output tensor values from the model
+        float confidences[NUM_GESTURES];
         for (int i = 0; i < NUM_GESTURES; i++) {
           Serial.print(GESTURES[i]);
           Serial.print(": ");
           Serial.println(tflOutputTensor->data.f[i], 6);
+          confidences[i] = tflOutputTensor->data.f[i];
         }
         Serial.println();
+
+        int maxConfidence = getIndexOfMaximumValue(confidences, NUM_GESTURES);
+        Serial.print("The results is ");
+        Serial.println(GESTURES[maxConfidence]);
+        // GESTURES[maxConfidence] is the class that has the highest confidence
+        if (GESTURES[maxConfidence] == "a") {
+            digitalWrite(2, HIGH);
+            digitalWrite(3, LOW);
+            digitalWrite(4, LOW);
+        } else if (GESTURES[maxConfidence] == "b") {
+            digitalWrite(2, LOW);
+            digitalWrite(3, HIGH);
+            digitalWrite(4, LOW);
+        } else if (GESTURES[maxConfidence] == "c") {
+            digitalWrite(2, LOW);
+            digitalWrite(3, LOW);
+            digitalWrite(4, HIGH);
+        } else {
+            digitalWrite(2, LOW);
+            digitalWrite(3, LOW);
+            digitalWrite(4, LOW);
+        }
       }
     }
   }
+}
+
+int getIndexOfMaximumValue(float* array, int size){
+ int maxIndex = 0;
+ float max = array[maxIndex];
+ for (int i = 0; i < size; i++){
+   if (array[i] > max){
+     max = array[i];
+     maxIndex = i;
+   }
+ }
+ return maxIndex;
 }

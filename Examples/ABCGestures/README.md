@@ -6,23 +6,24 @@ Classify "A", "B", "C" gestures.
 [video](https://youtu.be/7AfUF4RuiZ8)
 
 ## How to Run it
-A [video]() of how to run this workshop
+A [video](https://www.loom.com/share/ae50b56c41774eb6b98e9b8f728b3c90) of how to run this workshop
 
 ## 0. What do you need
 Arduino Nano 33 BLE Sense (and its USB cable), Laptop
 
 ## 1. Circuit
-Connects D2, D3, D4 to three LEDs.
+- Connects D2, D3, D4 to three LEDs.
 <img src="../../images/abcgesture_circuit.jpg" alt="abcgesture_circuit" width="400px">
 
 ## 2. Collect data
-- Open the [IMU_Classifier](/ArduinoSketches/IMU_Capture) sketch in Arduino, select the board and port, upload it to your Arduino Nano 33 BLE sense board.
+- Open the [IMU_Classifier](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/ABCGestures/ArduinoSketches/IMU_Capture) sketch in Arduino, select the board and port, upload it to your Arduino Nano 33 BLE sense board.
 - Open the serial port, start performing gesture "A" for more than 15 times, Arduino will detect the sudden movement and start recording the accelerometer and gyroscope data for 1 second, you should be able to see 119 lines of aX,aY,aZ,gX,gY,gZ numbers in the serial monitor. Copy the output from the serial monitor and save it in a "a.csv" file.
 - Clear the serial montior, press the reset button on the board, repeat the process for gesture "B" and "C".
 - In the end, we will have 3 .csv files: "a.csv", "b.csv", "b.csv"
 
 ## 3. Train the model
-Open this google colab, 
+Open [this google colab](https://colab.research.google.com/drive/1E2UFGJjddwEp3yKxMF9Fk02D2KACauyn).
+**Upload the 3 `.csv` files to the colab.**
 To train our own classes, we need to change the Gesture class.
 There are 3 places that we need to make some small changes.
   - 1. Graph Data (optional)
@@ -38,10 +39,11 @@ There are 3 places that we need to make some small changes.
     ]
     ```
     Put a list of your gestures here, the same names of your `csv` file
-In the end, you should have a `model.h` file that you downloaded from the colab.
+- In the end, you should have a `model.h` file that you downloaded from the colab.
 
 ## 4. Run the model
-Go to Arduino IDE, open this [IMU_Capture](/ArduinoSketches/IMU_Capture) sketch
+Go to Arduino IDE, open this [IMU_Classifier](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/ABCGestures/ArduinoSketches/IMU_Classifier) sketch, replace its `model.h` file to the file that we got from the google colab.
+
 Inside of the sketch, change the list of gestures as well:
 ```
 // array to map gesture index to a name
@@ -51,5 +53,5 @@ const char* GESTURES[] = {
   "c"
 };
 ```
-Select the port and board, upload this sketch, open the serial monitor. Perform all gestures, you will see the results in the serial monitor.
-This skecth will also light up LEDs at D2,3,4 pins when different classes are recognized. Watch the above demo video to learn more.
+- Select the port and board, upload this sketch, open the serial monitor. Perform all gestures, you will see the results in the serial monitor.
+- This skecth will also light up LEDs at D2,3,4 pins when different classes are recognized. Watch the above demo video to learn more.

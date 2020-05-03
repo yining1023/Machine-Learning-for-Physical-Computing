@@ -53,5 +53,5 @@ const char* GESTURES[] = {
   "c"
 };
 ```
-Select the port and board, upload this sketch, open the serial monitor. Perform all gestures, you will see the results in the serial monitor.
-This skecth will also light up LEDs at D2,3,4 pins when different classes are recognized. Watch the above demo video to learn more.
+- Select the port and board, upload this sketch, open the serial monitor. Perform all gestures, you will see the results in the serial monitor.
+- This skecth will also light up LEDs at D2,3,4 pins when different classes are recognized. Watch the above demo video to learn more.

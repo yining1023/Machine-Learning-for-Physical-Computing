@@ -9,6 +9,14 @@
 - [Demo](https://youtu.be/7xPDbbHCjLw)
 - [Demo made by Cara Neels](https://vimeo.com/363431151)
 
+## Sound with Servo Motor
+- Upload the [Arduino Sketch](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/TeachableMachineArduino/SoundClassifier_with_Servo/SoundClassifier_Servo) to the Arduino board
+- Running this [p5 sketch](https://editor.p5js.org/yining/sketches/q8JEPDwK7), remember to update the `portName` and `mySoundModelURL`, and update class names to your own classes.
+- [Demo](https://youtu.be/RnStPxTfEnU)
+- Circuit
+<img src="../../images/sound_servo.jpg" alt="sound_servo" width="400px">
+
+
 ## Image:
 - Running this [p5 sketch](https://editor.p5js.org/yining/sketches/Ob8Zkf_FZ) on p5 web editor, remember to update the `portName` and `myImageModelURL`, and update class names to your own classes.
 - [Demo](https://youtu.be/ZGafimlnLw8)

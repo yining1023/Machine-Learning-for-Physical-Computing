@@ -47,7 +47,7 @@ Prospective students are expected to have taken Introduction to Physical Computi
     - Sign in or sign up for a free account
 
 ## EQUIPMENT
-You will need a Arduino Nana 33 borad, and a modern laptop (4 years old or younger is a good rule of thumb). Most required software is freely available.
+You will need a Arduino Nano 33 board, and a modern laptop (4 years old or younger is a good rule of thumb). Most required software is freely available.
 
 # Policies
 

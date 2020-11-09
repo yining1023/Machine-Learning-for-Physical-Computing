@@ -1,10 +1,10 @@
-# Machine Learning for Physical Computing
+# Introduction to Machine Learning for Physical Computing
 
 ## COURSE DESCRIPTION
 
 With Machine Learning models are getting smaller, and microcontrollers are getting more computing power, Machine Learning is moving towards edge devices. This class explores the idea of how machine learning algorithms can be used on microcontrollers along with sensor data to build Physical Computing projects.
 
-In this class, we will learn about TensorFlow Lite, a library that allows you to run machine learning algorithms on microcontrollers. We will talk about common machine learning algorithms and techniques and apply them to build hands-on interactive projects that enrich our daily lives.
+In this class, we will start with running machine learning algorithms on a laptop and sending results to microcontrollers. Then, we will learn about TensorFlow Lite, a library that allows you to run machine learning algorithms on microcontrollers. We will talk about common machine learning algorithms and techniques and apply them to build hands-on interactive projects that enrich our daily lives.
 
 Students will learn to use pre-trained models, and re-train the models with sensor data. We are going to talk about Image Classification, Transfer Learning, Gesture and Speech Detection. For each topic, we will first discuss its history, theory, datasets, and applications, and then build simple experiments based on the topic.
 

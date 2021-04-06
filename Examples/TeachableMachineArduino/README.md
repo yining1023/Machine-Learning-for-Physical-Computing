@@ -22,6 +22,12 @@
 ## Image:
 - Running this [p5 sketch](https://editor.p5js.org/yining/sketches/Ob8Zkf_FZ) on p5 web editor, remember to update the `portName` and `myImageModelURL`, and update class names to your own classes.
 - [Demo](https://youtu.be/ZGafimlnLw8)
+- Circuit
+  - Connect Ground to the 2 LEDs Ground pin
+  - Connect Pin 2, 3(or 12, 13) to the LED power pin
+  An example circuit on Arduino Nano 33 BLE sense:
+  <img src="../../images/tmarduino.jpeg" alt="sound_servo" width="400px">
+
 
 ## Pose:
 - Running this [p5 sketch](https://editor.p5js.org/yining/sketches/WqhmvWzoo) on p5 web editor, remember to update the `portName` and `poseModelUrl`, and update class names to your own classes.

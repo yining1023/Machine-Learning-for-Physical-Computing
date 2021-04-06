@@ -40,6 +40,6 @@ Trouble shooting:
   3. You can find your portname in the p5 serial app. But there is no need to connect to the port in the p5 serial app.
   4. When you are re-uploading Arduino sketch, you need to stop p5 sketch in the editor and close the p5 serial app.
 - Cannot download/open p5 serial app
-  Cannot open p5 serial app: change the firewall settings, turn the firewall
-  Cannot download p5 serial app in Chrome(`p5.serialcontrol.zip is dangerous, so Chrome has blocked it`): try download it in other browers, like Safari, Firefox
+  1. Cannot open p5 serial app: change the firewall settings, turn the firewall
+  2. Cannot download p5 serial app in Chrome(`p5.serialcontrol.zip is dangerous, so Chrome has blocked it`): try download it in other browers, like Safari, Firefox
   

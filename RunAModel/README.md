@@ -23,5 +23,3 @@
 - [Arduino Project Hub: Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
 - [Arduino Project Hub: Magic Wandddddddd](https://create.arduino.cc/projecthub/team-182/magic-wandddddddd-ea87db)
 - [Face and hand tracking in the browser with MediaPipe and TensorFlow.js](https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html)
-
-## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-3-Run-a-Model)

@@ -14,7 +14,7 @@
 
 ## Workshop:
 - Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)
-- Hand pose tracking, [code](../Examples/ThumbupDownLeds), p5 web editor [code](https://editor.p5js.org/yining/sketches/pF2Nwe2Fh), [demo](https://youtu.be/MXyGUNWpw6A)
+- Thumb up down gesture classifier with LEDs, [code](../Examples/ThumbupDownLeds), p5 web editor [code](https://editor.p5js.org/yining/sketches/pF2Nwe2Fh), [demo](https://youtu.be/MXyGUNWpw6A)
 
 ## Resource:
 - [Tensorflow Lite Get started with microcontrollers](https://www.tensorflow.org/lite/microcontrollers/get_started)

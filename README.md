@@ -1,18 +1,18 @@
-# Machine Learning for Physical Computing
+# Introduction to Machine Learning for Physical Computing
 
 ## COURSE DESCRIPTION
 
 With Machine Learning models are getting smaller, and microcontrollers are getting more computing power, Machine Learning is moving towards edge devices. This class explores the idea of how machine learning algorithms can be used on microcontrollers along with sensor data to build Physical Computing projects.
 
-In this class, we will learn about TensorFlow Lite, a library that allows you to run machine learning algorithms on microcontrollers. We will talk about common machine learning algorithms and techniques and apply them to build hands-on interactive projects that enrich our daily lives.
+In this class, we will start with running machine learning algorithms on a laptop and sending results to microcontrollers. Then, we will learn about TensorFlow Lite, a library that allows you to run machine learning algorithms on microcontrollers. We will talk about common machine learning algorithms and techniques and apply them to build hands-on interactive projects that enrich our daily lives.
 
 Students will learn to use pre-trained models, and re-train the models with sensor data. We are going to talk about Image Classification, Transfer Learning, Gesture and Speech Detection. For each topic, we will first discuss its history, theory, datasets, and applications, and then build simple experiments based on the topic.
 
 Prospective students are expected to have taken Introduction to Physical Computing and Introduction to Computational Media course, or have equivalent programming experience with Arduino and JavaScript.
 
 ## INFO
-- Yining Shi, Tuesday, 6:30PM - 9:00PM, 03/24 - 05/05/2020
-- Zoom meeting
+- Yining Shi, Thursday, 6:30PM - 9:00PM, 03/25 - 05/06/2020
+- Zoom meeting (Zoom link is in you nyu email calendar invite)
 - [Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UUVtNWtYeW9BX3ZhfGRlZmF1bHR8NDIzN2VhZmY5OTQ4MTM2NTRmY2Q4ODQyY2Q3NDZmM2I)
 
 ## OUTLINE:
@@ -34,7 +34,7 @@ Prospective students are expected to have taken Introduction to Physical Computi
 - [Get started with machine learning on Arduino](https://blog.arduino.cc/2019/10/15/get-started-with-machine-learning-on-arduino)
 - [Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow)
 - [ML Crash Course](https://developers.google.com/machine-learning/crash-course)
-- [Deep lLearning Book](https://www.deeplearningbook.org/)
+- [Deep Learning Book](https://www.deeplearningbook.org/)
 - [Make Your Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G)
 
 ## Troubleshooting on Arudino Nano 33 BLE Sense

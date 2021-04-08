@@ -14,7 +14,7 @@
 
 ## Workshop:
 - Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)
-- Hand pose tracking, [p5 code editor code](https://editor.p5js.org/yining/sketches/2dXLFrpl-), [demo](https://www.loom.com/share/d1161bc584954122ab9757974fd02309)
+- Hand pose tracking, [code](../Examples/handpose_led), [demo](https://www.loom.com/share/d1161bc584954122ab9757974fd02309)
 
 ## Resource:
 - [Tensorflow Lite Get started with microcontrollers](https://www.tensorflow.org/lite/microcontrollers/get_started)

@@ -187,10 +187,14 @@ follow the instructions in [magic_wand/train/README.md](https://github.com/tenso
   Solution 1: Make sure to select the right board: Arduino Nano 33 BLE
   
   Solution 2: make sure you install the board maneger and the two libraries correctly.The example is tested on the following softwares and libraries:
-
+  It works with -
   - Arduino IDE version 1.8.12
   - Arduino_TensorflowLite library version 2.1.0-ALPHA
   - Arduino_LSM9DS1 library version 1.1.0
+  Or with older versions of the libraries -
+  - Arduino IDE version 1.8.12
+  - Arduino_TensorflowLite library version 1.14.0-ALPHA
+  - Arduino_LSM9DS1 library version 1.0.0
 
 - Problem: Error when compiling Arduino sketch: `Multiple libraries were found for "TensorFlowLite.h"`
   Solution: there might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.

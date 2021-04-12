@@ -14,6 +14,7 @@
 
 ## Workshop:
 - Magic Wand, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand)
+- Magic Wand with LEDs, [Demo video](https://youtu.be/E42RYOEqfyA), [Guide](../Examples/magic_wand_led)
 - Thumb up down gesture classifier with LEDs, [code](../Examples/ThumbupDownLeds), p5 web editor [code](https://editor.p5js.org/yining/sketches/pF2Nwe2Fh), [demo](https://youtu.be/MXyGUNWpw6A)
 
 ## Resource:

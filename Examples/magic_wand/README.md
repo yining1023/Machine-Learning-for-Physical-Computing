@@ -3,7 +3,22 @@
 - [Demo video](https://youtu.be/E42RYOEqfyA)
 - See another [demo video](https://create.arduino.cc/projecthub/404-team/magic-wand-885613) from Arduino project hub
 
-## Forked from [Tensorflow Lite example](https://github.com/tensorflow/tensorflow/edit/master/tensorflow/lite/micro/examples/magic_wand)
+## [Magic Wand Step-by-step Tutorial on Codelab](https://codelabs.developers.google.com/codelabs/ai-magicwand#0)
+
+This is a tutorial that uses Arduino_LSM9DS1 library version 1.1.0 and Arduino_TensorFlowLite library 2.1.0-ALPHA.
+Once you open the serial montion, it will be blank, until it recogize a gesture.
+You need to point the port side to yourself to perform gestures.
+I found it's easy to get the "Slope" gesture, but hard to get the "Ring" and "Wing" getures.
+
+The following Guide uses the old Arduino_LSM9DS1 library version 1.0.0 and Arduino_TensorFlowLite library 1.14.0-ALPHA.
+It requires to patch the Arduino_LSM9DS1 library.
+When you open the serial montion, it will show "Magic starts!"
+You need to point the port side to your left side to perform gestures.
+I found it's easy to get the "Wing" and "Slope" gesture.
+
+## Guide
+
+Forked from [Tensorflow Lite example](https://github.com/tensorflow/tensorflow/edit/master/tensorflow/lite/micro/examples/magic_wand)
 
 This example shows how you can use TensorFlow Lite to run a 20 kilobyte neural
 network model to recognize gestures with an accelerometer. It's designed to run
@@ -15,9 +30,9 @@ then outputs the gesture to the serial port.
 
 ## Table of contents
 
--   [Getting started](#getting-started)
--   [Deploy to Arduino](#deploy-to-arduino)
--   [Train your own model](#train-your-own-model)
+- [Getting started](#getting-started)
+- [Deploy to Arduino](#deploy-to-arduino)
+- [Train your own model](#train-your-own-model)
 
 ## Deploy to Arduino
 
@@ -29,8 +44,9 @@ The sample has been tested with the following devices:
 - [Arduino Nano 33 BLE Sense](https://store.arduino.cc/usa/nano-33-ble-sense-with-headers)
 
 ### Install the Arduino Nano 33 BLE Sense board manager
+
 In the Arduino IDE menu select `Tools > Board > Boards Manager…`
-Search for “Nano BLE” and press install on the board 
+Search for “Nano BLE” and press install on the board
 It will take several minutes to install. When it’s done close the Boards Manager window
 
 ### Install the Arduino_TensorFlowLite library
@@ -57,6 +73,8 @@ following instructions work.
 
 The driver will be installed to your `Arduino/libraries` directory, in the
 subdirectory `Arduino_LSM9DS1`.
+
+(Note: On Mac OS, the `Arduino/libraries` directory might live in `Documents/Arduino/libraries`)
 
 Open the following file:
 
@@ -115,6 +133,8 @@ Hold the Arduino with its components facing upwards and the USB cable to your
 left. Perform the gestures "WING", "RING"(clockwise), and "SLOPE", and you
 should see the corresponding output:
 
+Note: try perform the gesture within 1 second.
+
 ```
 WING:
 *         *         *
@@ -153,14 +173,23 @@ SLOPE:
 To train your own model, or create a new model for a new set of gestures,
 follow the instructions in [magic_wand/train/README.md](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/magic_wand/train/README.md).
 
-
 ## Troubleshooting
-- Error compiling
-  - Make sure to select the right board: Arduino Nano 33 BLE
 
-- Error when compiling Arduino sketch: `Multiple libraries were found for "TensorFlowLite.h"`
-  - There might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.
-  
+- Problem: Error compiling
+  Solution 1: Make sure to select the right board: Arduino Nano 33 BLE
+  Solution 2: make sure you install the board maneger and the two libraries correctly.The example is tested on the following softwares and libraries:
+
+  - Arduino IDE version 1.8.12
+  - Arduino_TensorflowLite library version 2.1.0-ALPHA
+  - Arduino_LSM9DS1 library version 1.1.0
+
+- Problem: Error when compiling Arduino sketch: `Multiple libraries were found for "TensorFlowLite.h"`
+  Solution: there might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.
+
+- Problem: when open serial montior, nothing shows up there, I cannot see "Magic starts!" text.
+  Solution1: When you have Arduino_TensorFlowLite library 2.1.0-ALPHA, the serial monitor will be blank, once you perform gestures, it will print the gestures. It might be hard to get it to regconize gestures because it requires specific oritation and movement. You need to point the port side to yourself to perform gestures. Check out this [demo](https://codelabs.developers.google.com/codelabs/ai-magicwand#5).
+  Solution2: You can also try an old version of Arduino_TensorFlowLite library 1.14.0-ALPHA, it will print out "Magic starts!" in the serial monitor.
+
 - Problem: You can’t get the gestures to work.
   Solution: First, make sure the yellow LED is blinking, which indicates that inference is happening. If it isn’t, press the RST button. Next, make sure you’re holding the board in the correct orientation, as shown earlier.
   To learn the gestures, start with the “W,” which is the easiest to master. The “O” is a little more difficult because the circle needs to be quite smooth.
@@ -174,7 +203,7 @@ follow the instructions in [magic_wand/train/README.md](https://github.com/tenso
 
 - Problem: The LEDs are stuck on or off.
   Solution: It’s normal for the LEDs to stop flashing immediately after an inference, while the program waits for enough new data to be available. If the LED stops flashing for more than a few seconds, the program might have crashed. In that case, press the RST button.
-  
+
 ## What's Next
+
 - Once you get the result in the serial monitor, try to light up different LEDs for different gestures. To light up LEDs, go to Arduino file `arduino_output_handler.cpp` to change the code there.
- 

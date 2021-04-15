@@ -1,29 +1,24 @@
 /*
   IMU Classifier
-
   This example uses the on-board IMU to start reading acceleration and gyroscope
   data from on-board IMU, once enough samples are read, it then uses a
   TensorFlow Lite (Micro) model to try to classify the movement as a known gesture.
-
   Note: The direct use of C/C++ pointers, namespaces, and dynamic memory is generally
         discouraged in Arduino examples, and in the future the TensorFlowLite library
         might change to make the sketch simpler.
-
   The circuit:
   - Arduino Nano 33 BLE or Arduino Nano 33 BLE Sense board.
-
   Created by Don Coleman, Sandeep Mistry
   Modified by Dominic Pajak, Sandeep Mistry
-
   This example code is in the public domain.
 */
 
 #include <Arduino_LSM9DS1.h>
 
 #include <TensorFlowLite.h>
-#include <tensorflow/lite/experimental/micro/kernels/all_ops_resolver.h>
-#include <tensorflow/lite/experimental/micro/micro_error_reporter.h>
-#include <tensorflow/lite/experimental/micro/micro_interpreter.h>
+#include <tensorflow/lite/micro/all_ops_resolver.h>
+#include <tensorflow/lite/micro/micro_error_reporter.h>
+#include <tensorflow/lite/micro/micro_interpreter.h>
 #include <tensorflow/lite/schema/schema_generated.h>
 #include <tensorflow/lite/version.h>
 
@@ -40,7 +35,7 @@ tflite::MicroErrorReporter tflErrorReporter;
 // pull in all the TFLM ops, you can remove this line and
 // only pull in the TFLM ops you need, if would like to reduce
 // the compiled size of the sketch.
-tflite::ops::micro::AllOpsResolver tflOpsResolver;
+tflite::AllOpsResolver tflOpsResolver;
 
 const tflite::Model* tflModel = nullptr;
 tflite::MicroInterpreter* tflInterpreter = nullptr;

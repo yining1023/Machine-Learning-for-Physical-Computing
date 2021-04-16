@@ -26,4 +26,3 @@
   - [ml5.js: Pose Classification training all steps](https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK)
   - [NeuralNetwork pose classifier](https://editor.p5js.org/ml5/sketches/NeuralNetwork_pose_classifier)
 
-## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-4-Train-a-Model)

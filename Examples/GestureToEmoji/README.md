@@ -1,6 +1,12 @@
 ## Troubleshooting
 - [Why the loss does not go down? Arduino tinyml workshop gesture classification](https://www.loom.com/share/ebee6b3a1f594fda84ed17bf33252e77)
 - [How to train/run Google Colab? Arduino Tinyml Workshop Gesture classification](https://www.loom.com/share/a7cf8894e4c94b9cb30cb3d8cbd9a496)
+- The loss from colab is always 0: you might only have one class, it needs to have at least 2 classes
+- When collecting data from the serial monitior, uncheck "Show timestamp", so it doesn't include timestamp in your flex.csv file
+- When compling "IMU_Classifier", "Error on compiling Arduino Nano 33 BLE", check the Arduino_TensorflowLite library version in your arduino IDE, it should be "2.1.0-ALPHA" without any "precomplied" label.
+- Library version: Arduino_LSM9DS1 @1.1.0, Arduino_TensorflowLite @2.1.0-ALPHA
+
+[Demo Video](https://www.loom.com/share/c504446e1d284736b9309986e2b2a4ed)
 
 # Forked from [ArduinoTensorFlowLiteTutorials](https://github.com/arduino/ArduinoTensorFlowLiteTutorials)
 

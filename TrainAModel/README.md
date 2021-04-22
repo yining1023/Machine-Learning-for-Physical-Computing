@@ -15,7 +15,7 @@
 - Training hand pose model
   - Hand pose tracking + KNN Classification, [p5 web editor code](https://editor.p5js.org/yining/sketches/uUwg0z9Z5), [demo video](https://www.loom.com/share/f81cf908e5b7404ba0071902019d67c2)
   - Hand pose tracking + Neural Network, [demo video](https://www.loom.com/share/420fa5941dea411491af817011622c86)
-    - [Collect date](https://editor.p5js.org/yining/sketches/dCoPm-Opb)
+    - [Collect data](https://editor.p5js.org/yining/sketches/dCoPm-Opb)
     - [Train the model](https://editor.p5js.org/yining/sketches/IrBFfXbSF)
     - [Run the model](https://editor.p5js.org/yining/sketches/6cFF9-L-Z)
 
@@ -26,4 +26,3 @@
   - [ml5.js: Pose Classification training all steps](https://editor.p5js.org/codingtrain/sketches/JoZl-QRPK)
   - [NeuralNetwork pose classifier](https://editor.p5js.org/ml5/sketches/NeuralNetwork_pose_classifier)
 
-## [Homework](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/wiki/Week-4-Train-a-Model)

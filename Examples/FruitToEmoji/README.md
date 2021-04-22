@@ -6,4 +6,4 @@
 
 Classifies fruit using the RGB color and proximity sensors of the Arduino Nano 33 BLE Sense, using a TensorFlow Lite Micro model trained on data captured from the same hardware
 
-Demo video: classify three books: yellow, blue, purple books
+[Demo video](https://youtu.be/-EzJNowPNmg): classify three books: yellow, blue, purple books

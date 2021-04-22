@@ -48,9 +48,9 @@ byte tensorArena[tensorArenaSize];
 
 // array to map gesture index to a name
 const char* CLASSES[] = {
-  "heart", // u8"\U0001F34E", // Apple
-  "minion", // u8"\U0001F34C", // Banana
-  "sun" // u8"\U0001F34A"  // Orange
+  "bluebook", // u8"\U0001F34E", // Apple  // heart
+  "purplebook", // u8"\U0001F34C", // Banana // minion
+  "yellowbook" // u8"\U0001F34A"  // Orange // sun
 };
 
 #define NUM_CLASSES (sizeof(CLASSES) / sizeof(CLASSES[0]))

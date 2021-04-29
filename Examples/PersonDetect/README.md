@@ -63,7 +63,7 @@ Download the current nightly build of the library:
 
 This example application is included as part of the official TensorFlow Lite
 Arduino library. To install it, open the Arduino library manager in
-`Tools -> Manage Libraries...` and search for `Arduino_TensorFlowLite`.
+`Tools -> Manage Libraries...` and search for `Arduino_TensorFlowLite`, install Arduino_TensorFlowLite@<b>1.15.0-ALPHA</b> version
 
 ### Install other libraries
 

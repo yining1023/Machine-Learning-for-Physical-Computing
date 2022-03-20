@@ -11,7 +11,8 @@ Students will learn to use pre-trained models, and re-train the models with sens
 Prospective students are expected to have taken Introduction to Physical Computing and Introduction to Computational Media course, or have equivalent programming experience with Arduino and JavaScript.
 
 ## INFO
-- Yining Shi, Thursday, 6:30PM - 9:00PM, 03/25 - 05/06/2020
+- Yining Shi, Thursday, 6:30PM - 9:00PM, 03/24 - 05/05/2020
+- 370 Jay Street, Room 409 Loc: Brooklyn Campus
 - Zoom meeting (Zoom link is in you nyu email calendar invite)
 - [Office Hours](https://calendar.google.com/calendar/selfsched?sstoken=UUVtNWtYeW9BX3ZhfGRlZmF1bHR8NDIzN2VhZmY5OTQ4MTM2NTRmY2Q4ODQyY2Q3NDZmM2I)
 

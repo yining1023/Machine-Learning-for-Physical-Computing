@@ -1,32 +1,38 @@
 ## Demo
+
 [video](https://youtu.be/k-hnPUr5OnU)
 
 ## How to run it
+
 [video](https://www.loom.com/share/e3657978c1ec4e44b1f72421542f2485)
 
 ## Parts
+
 <img src="../../images/detect_person_parts.jpg" alt="parts" width="400px">
 
 ## Circuit:
+
 <img src="../../images/detect_person_circuit1.jpg" alt="circuit1" width="400px"><img src="../../images/detect_person_circuit2.jpg" alt="circuit2" width="400px">
 
 ## Other tutorial
+
 See also [Person Detection with TensorFlow and Arduino](https://create.arduino.cc/projecthub/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01) on Arduino project hub
 
 Circuit wiring diagram
 ![Circuit wiring diagram](https://hackster.imgix.net/uploads/attachments/1007722/arduino_ble_with_battery_bb_Wq6pNrk8fW.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
 
-# Forked from [tflite examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection)
+# Forked from [tflite examples](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/person_detection)
 
 # Person detection example
 
 This example shows how you can use Tensorflow Lite to run a 250 kilobyte neural
-network to recognize people in images captured by a camera.  It is designed to
+network to recognize people in images captured by a camera. It is designed to
 run on systems with small amounts of memory such as microcontrollers and DSPs.
 
 ## Table of contents
--   [Getting started](#getting-started)
--   [Running on Arduino](#running-on-arduino)
+
+- [Getting started](#getting-started)
+- [Running on Arduino](#running-on-arduino)
 
 ## Running on Arduino
 
@@ -45,16 +51,16 @@ You will also need the following camera module:
 
 Connect the Arducam pins as follows:
 
-|Arducam pin name|Arduino pin name|
-|----------------|----------------|
-|CS|D7 (unlabelled, immediately to the right of D6)|
-|MOSI|D11|
-|MISO|D12|
-|SCK|D13|
-|GND|GND (either pin marked GND is fine)|
-|VCC|3.3 V|
-|SDA|A4|
-|SCL|A5|
+| Arducam pin name | Arduino pin name                                |
+| ---------------- | ----------------------------------------------- |
+| CS               | D7 (unlabelled, immediately to the right of D6) |
+| MOSI             | D11                                             |
+| MISO             | D12                                             |
+| SCK              | D13                                             |
+| GND              | GND (either pin marked GND is fine)             |
+| VCC              | 3.3 V                                           |
+| SDA              | A4                                              |
+| SCL              | A5                                              |
 
 ### Install the Arduino_TensorFlowLite library
 
@@ -70,15 +76,15 @@ Arduino library. To install it, open the Arduino library manager in
 In addition to the TensorFlow library, you'll also need to install two
 libraries:
 
-* The Arducam library, so our code can interface with the hardware
-* The JPEGDecoder library, so we can decode JPEG-encoded images
+- The Arducam library, so our code can interface with the hardware
+- The JPEGDecoder library, so we can decode JPEG-encoded images
 
 The Arducam Arduino library is available from GitHub at
 [https://github.com/ArduCAM/Arduino](https://github.com/ArduCAM/Arduino).
 To install it, download or clone the repository. Next, copy its `ArduCAM`
 subdirectory into your `Arduino/libraries` directory. To find this directory on
-your machine, check the *Sketchbook location* in the Arduino IDE's
-*Preferences* window.
+your machine, check the _Sketchbook location_ in the Arduino IDE's
+_Preferences_ window.
 
 After downloading the library, you'll need to edit one of its files to make sure
 it is configured for the Arducam Mini 2MP Plus. To do so, open the following
@@ -105,7 +111,7 @@ commented out, except for `#define OV2640_MINI_2MP_PLUS`, as so:
 Once you save the file, we're done configuring the Arducam library.
 
 Our next step is to install the JPEGDecoder library. We can do this from within
-the Arduino IDE. First, go to the *Manage Libraries...* option in the *Tools*
+the Arduino IDE. First, go to the _Manage Libraries..._ option in the _Tools_
 menu and search for `JPEGDecoder`. You should install version _1.8.0_ of the
 library.
 
@@ -168,9 +174,9 @@ trades accuracy for small size. It works very well, but it isn't accurate 100%
 of the time.
 
 We can also see the results of inference via the Arduino Serial Monitor. To do
-this, open the *Serial Monitor* from the *Tools* menu. You'll see a detailed
+this, open the _Serial Monitor_ from the _Tools_ menu. You'll see a detailed
 log of what is happening while our application runs. It's also interesting to
-check the *Show timestamp* box, so you can see how long each part of the process
+check the _Show timestamp_ box, so you can see how long each part of the process
 takes:
 
 ```

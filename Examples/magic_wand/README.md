@@ -13,8 +13,8 @@ You need to point the port side to yourself to perform gestures.
 
 I found it's easy to get the "Slope" gesture, but hard to get the "Ring" and "Wing" getures.
 
-
 ## Guide
+
 This Guide uses the old Arduino_LSM9DS1 library version 1.0.0 and Arduino_TensorFlowLite library 1.14.0-ALPHA.
 
 It requires to patch the Arduino_LSM9DS1 library.
@@ -178,20 +178,21 @@ SLOPE:
 ## Train your own model
 
 To train your own model, or create a new model for a new set of gestures,
-follow the instructions in [magic_wand/train/README.md](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/magic_wand/train/README.md).
+follow the instructions in [magic_wand/train/README.md](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/magic_wand/train/README.md).
 
 ## Troubleshooting
 
 - Problem: Error compiling
 
   Solution 1: Make sure to select the right board: Arduino Nano 33 BLE
-  
+
   Solution 2: make sure you install the board maneger and the two libraries correctly.The example is tested on the following softwares and libraries:
   It works with -
+
   - Arduino IDE version 1.8.12
   - Arduino_TensorflowLite library version 2.1.0-ALPHA
   - Arduino_LSM9DS1 library version 1.1.0
-  Or with older versions of the libraries -
+    Or with older versions of the libraries -
   - Arduino IDE version 1.8.12
   - Arduino_TensorflowLite library version 1.14.0-ALPHA
   - Arduino_LSM9DS1 library version 1.0.0
@@ -202,15 +203,15 @@ follow the instructions in [magic_wand/train/README.md](https://github.com/tenso
 - Problem: when open serial montior, nothing shows up there, I cannot see "Magic starts!" text.
 
   Solution1: When you have Arduino_TensorFlowLite library 2.1.0-ALPHA, the serial monitor will be blank, once you perform gestures, it will print the gestures. It might be hard to get it to regconize gestures because it requires specific oritation and movement. You need to point the port side to yourself to perform gestures. Check out this [demo](https://codelabs.developers.google.com/codelabs/ai-magicwand#5).
-  
+
   Solution2: You can also try an old version of Arduino_TensorFlowLite library 1.14.0-ALPHA, it will print out "Magic starts!" in the serial monitor.
 
 - Problem: You can’t get the gestures to work.
 
   Solution: First, make sure the yellow LED is blinking, which indicates that inference is happening. If it isn’t, press the RST button. Next, make sure you’re holding the board in the correct orientation, as shown earlier.
-  
+
   To learn the gestures, start with the “W,” which is the easiest to master. The “O” is a little more difficult because the circle needs to be quite smooth.
-  
+
   Try finish the gestures in 1 second, be firm and fast. See demo video [here](https://youtu.be/E42RYOEqfyA).
 
 - Problem: When flashing, the script hangs for a while at Sending Hello. and then prints an error.

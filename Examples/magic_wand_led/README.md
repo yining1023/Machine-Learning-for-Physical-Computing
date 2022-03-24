@@ -1,11 +1,15 @@
 # Magic Wand with LEDs
+
 - [Demo video](https://youtu.be/U8EDfUBn5H4)
 - [Tutorial video: how to run it](https://www.loom.com/share/4a9b3cf76f0c44418fb44f0204bed477)
 
 #### This is a contuniaution of the Magic Wand example, it lights up 3 different LEDs when it classfies the 3 gestures.
+
 ## Circuit board
+
 Connect three LEDs on pin D2, D3, D4
 ![magicwand-led-circuit](../../images/magicwand-led-circuit.jpg)
+
 - When "Wing" gesture is recognize, green LED lights up.
 - When "Ring" gesture is recognize, yellow LED lights up.
 - When "Slop" gesture is recognize, red LED lights up.
@@ -22,9 +26,9 @@ then outputs the gesture to the serial port.
 
 ## Table of contents
 
--   [Getting started](#getting-started)
--   [Deploy to Arduino](#deploy-to-arduino)
--   [Train your own model](#train-your-own-model)
+- [Getting started](#getting-started)
+- [Deploy to Arduino](#deploy-to-arduino)
+- [Train your own model](#train-your-own-model)
 
 ## Deploy to Arduino
 
@@ -36,8 +40,9 @@ The sample has been tested with the following devices:
 - [Arduino Nano 33 BLE Sense](https://store.arduino.cc/usa/nano-33-ble-sense-with-headers)
 
 ### Install the Arduino Nano 33 BLE Sense board manager
+
 In the Arduino IDE menu select `Tools > Board > Boards Manager…`
-Search for “Nano BLE” and press install on the board 
+Search for “Nano BLE” and press install on the board
 It will take several minutes to install. When it’s done close the Boards Manager window
 
 ### Install the Arduino_TensorFlowLite library
@@ -158,16 +163,16 @@ SLOPE:
 ## Train your own model
 
 To train your own model, or create a new model for a new set of gestures,
-follow the instructions in [magic_wand/train/README.md](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/magic_wand/train/README.md).
-
+follow the instructions in [magic_wand/train/README.md](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/magic_wand/train/README.md).
 
 ## Troubleshooting
+
 - Error compiling
+
   - Make sure to select the right board: Arduino Nano 33 BLE
 
 - Error when compiling Arduino sketch: `Multiple libraries were found for "TensorFlowLite.h"`
   - There might ba a mismatch of the library version and example. Go to folder `Arduino/library`, find a folder called `Arduino_TensorFlowLite`, delete this folder, and try to install Arduino_TensorFlowLite library under Board Manager again.
-  
 - Problem: You can’t get the gestures to work.
   Solution: First, make sure the yellow LED is blinking, which indicates that inference is happening. If it isn’t, press the RST button. Next, make sure you’re holding the board in the correct orientation, as shown earlier.
   To learn the gestures, start with the “W,” which is the easiest to master. The “O” is a little more difficult because the circle needs to be quite smooth.
@@ -181,7 +186,7 @@ follow the instructions in [magic_wand/train/README.md](https://github.com/tenso
 
 - Problem: The LEDs are stuck on or off.
   Solution: It’s normal for the LEDs to stop flashing immediately after an inference, while the program waits for enough new data to be available. If the LED stops flashing for more than a few seconds, the program might have crashed. In that case, press the RST button.
-  
+
 ## What's Next
+
 - Once you get the result in the serial monitor, try to light up different LEDs for different gestures. To light up LEDs, go to Arduino file `arduino_output_handler.cpp` to change the code there.
- 

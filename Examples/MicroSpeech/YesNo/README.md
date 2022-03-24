@@ -1,4 +1,4 @@
-# Forked from [tflite examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech)
+# Forked from [tflite examples](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/micro_speech)
 
 # Micro speech example
 
@@ -16,8 +16,9 @@ run on systems like an STM32F103 with only 20 kilobytes of total SRAM and 64
 kilobytes of Flash.
 
 ## Table of contents
--   [Deploy to Arduino](#deploy-to-arduino)
--   [Train your own model](#train-your-own-model)
+
+- [Deploy to Arduino](#deploy-to-arduino)
+- [Train your own model](#train-your-own-model)
 
 ## Deploy to Arduino
 
@@ -79,4 +80,4 @@ If you don't see any output, repeat the process again.
 ## Training your own model
 
 You can train your own model with some easy-to-use scripts. See
-[training_a_model.md](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech/train) for instructions.
+[training_a_model.md](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/micro_speech/train) for instructions.

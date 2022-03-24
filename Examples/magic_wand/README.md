@@ -3,7 +3,7 @@
 - [Demo video](https://youtu.be/E42RYOEqfyA)
 - See another [demo video](https://create.arduino.cc/projecthub/404-team/magic-wand-885613) from Arduino project hub
 
-## [Magic Wand Step-by-step Tutorial on Codelab](https://codelabs.developers.google.com/codelabs/ai-magicwand#0)
+## [Magic Wand Step-by-step Tutorial on Codelab](https://codelabs.developers.google.com/magicwand#0)
 
 This is a tutorial that uses Arduino_LSM9DS1 library version 1.1.0 and Arduino_TensorFlowLite library 2.1.0-ALPHA.
 

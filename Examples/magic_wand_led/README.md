@@ -62,49 +62,7 @@ Follow these steps to install and patch the driver:
 #### Install the correct version
 
 In the Arduino IDE, go to `Tools -> Manage Libraries...` and search for
-`Arduino_LSM9DS1`. **Install version 1.1.0 of the driver** to ensure the
-following instructions work.
-
-#### Patch the driver
-
-The driver will be installed to your `Arduino/libraries` directory, in the
-subdirectory `Arduino_LSM9DS1`.
-
-Open the following file:
-
-```
-Arduino_LSM9DS1/src/LSM9DS1.cpp
-```
-
-Go to the function named `LSM9DS1Class::begin()`. Insert the following lines at
-the end of the function, immediately before the `return 1` statement:
-
-```cpp
-// Enable FIFO (see docs https://www.st.com/resource/en/datasheet/DM00103319.pdf)
-writeRegister(LSM9DS1_ADDRESS, 0x23, 0x02);
-// Set continuous mode
-writeRegister(LSM9DS1_ADDRESS, 0x2E, 0xC0);
-```
-
-Next, go to the function named `LSM9DS1Class::accelerationAvailable()`. You will
-see the following lines:
-
-```cpp
-if (readRegister(LSM9DS1_ADDRESS, LSM9DS1_STATUS_REG) & 0x01) {
-  return 1;
-}
-```
-
-Comment out those lines and replace them with the following:
-
-```cpp
-// Read FIFO_SRC. If any of the rightmost 8 bits have a value, there is data
-if (readRegister(LSM9DS1_ADDRESS, 0x2F) & 63) {
-  return 1;
-}
-```
-
-Next, save the file. Patching is now complete.
+`Arduino_LSM9DS1`. **Install version 1.1.0 of the library **.
 
 ### Load and run the example
 

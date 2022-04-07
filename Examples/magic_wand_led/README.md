@@ -51,15 +51,10 @@ This example application is included as part of the official TensorFlow Lite
 Arduino library. To install it, open the Arduino library manager in
 `Tools -> Manage Libraries...` and search for `Arduino_TensorFlowLite`.
 
-### Install and patch the accelerometer driver
+### Install the accelerometer driver
 
 This example depends on the [Arduino_LSM9DS1](https://github.com/arduino-libraries/Arduino_LSM9DS1)
-library to communicate with the device's accelerometer. However, the library
-must be patched in order to enable the accelerometer's FIFO buffer.
-
-Follow these steps to install and patch the driver:
-
-#### Install the correct version
+library to communicate with the device's accelerometer.
 
 In the Arduino IDE, go to `Tools -> Manage Libraries...` and search for
 `Arduino_LSM9DS1`. **Install version 1.1.0 of the library **.

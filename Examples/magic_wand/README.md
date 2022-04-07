@@ -155,7 +155,7 @@ follow the instructions in [magic_wand/train/README.md](https://github.com/tenso
 
 - Problem: when open serial montior, nothing shows up there, I cannot see "Magic starts!" text.
 
-  Solution1: When you have Arduino_TensorFlowLite library 2.1.0-ALPHA, the serial monitor will be blank, once you perform gestures, it will print the gestures. It might be hard to get it to regconize gestures because it requires specific oritation and movement. You need to point the port side to yourself to perform gestures. Check out this [demo](https://codelabs.developers.google.com/codelabs/ai-magicwand#5).
+  Solution1: When you have Arduino_TensorFlowLite library 2.1.0-ALPHA, the serial monitor will be blank, once you perform gestures, it will print the gestures. It might be hard to get it to regconize gestures because it requires specific oritation and movement. You need to point the port side to yourself to perform gestures. Check out this [demo](https://codelabs.developers.google.com/magicwand#5).
 
   Solution2: You can also try an old version of Arduino_TensorFlowLite library 1.14.0-ALPHA, it will print out "Magic starts!" in the serial monitor.
 

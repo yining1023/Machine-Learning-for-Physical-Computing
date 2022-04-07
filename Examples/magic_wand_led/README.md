@@ -62,7 +62,7 @@ Follow these steps to install and patch the driver:
 #### Install the correct version
 
 In the Arduino IDE, go to `Tools -> Manage Libraries...` and search for
-`Arduino_LSM9DS1`. **Install version 1.0.0 of the driver** to ensure the
+`Arduino_LSM9DS1`. **Install version 1.1.0 of the driver** to ensure the
 following instructions work.
 
 #### Patch the driver

@@ -19,7 +19,7 @@ Arduino Nano 33 BLE Sense (and its USB cable), Laptop
 - Open the [IMU_Classifier](https://github.com/yining1023/Machine-Learning-for-Physical-Computing/tree/master/Examples/ABCGestures/ArduinoSketches/IMU_Capture) sketch in Arduino, select the board and port, upload it to your Arduino Nano 33 BLE sense board.
 - Open the serial port, start performing gesture "A" for more than 15 times, Arduino will detect the sudden movement and start recording the accelerometer and gyroscope data for 1 second, you should be able to see 119 lines of aX,aY,aZ,gX,gY,gZ numbers in the serial monitor. Copy the output from the serial monitor and save it in a "a.csv" file.
 - Clear the serial montior, press the reset button on the board, repeat the process for gesture "B" and "C".
-- In the end, we will have 3 .csv files: "a.csv", "b.csv", "b.csv"
+- In the end, we will have 3 .csv files: "a.csv", "b.csv", "c.csv"
 
 ## 3. Train the model
 Open [this google colab](https://colab.research.google.com/drive/1E2UFGJjddwEp3yKxMF9Fk02D2KACauyn).

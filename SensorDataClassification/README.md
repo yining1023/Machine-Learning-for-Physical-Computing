@@ -10,6 +10,7 @@
     - [https://editor.p5js.org/AndreasRef/sketches/HyEDToYnQ](https://editor.p5js.org/AndreasRef/sketches/HyEDToYnQ)
     - [https://editor.p5js.org/AndreasRef/sketches/BynhuHsqX](https://editor.p5js.org/AndreasRef/sketches/BynhuHsqX)
 - [Train a doodle classifier](https://github.com/yining1023/doodleNet)
+- Input & Output Brainstorm, [Figjam](https://www.figma.com/file/z8osO6itFfu9jhCNJFkfS4/ML4PC-Input-and-Output?node-id=0%3A1)
 
 ## Resource:
 - [Sensors on Arduino Nano 33 BLE Sense](https://www.arduino.cc/en/Guide/NANO33BLESense)
